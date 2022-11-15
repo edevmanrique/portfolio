@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Welcome
+{% endblock %}
+
+{% block content %}
+    <div class="hero">
+        <div class="hero__content">
+            <div class="hero__content_left">
+                <h1>I'm a developer</h1>
+                <h1>Anthony Stark</h1>
+                <p>I build dynamic Python apps using relational databases.</p>
+                <a href="#contact" class="hero__content_left_btn">Contact me</a>
+            </div>
+            <div class="hero__content_right">
+                <img src="{{ url_for('static', filename='big-data.png') }}"/>
+            </div>
+        </div>
+    </div>
+{% endblock %}

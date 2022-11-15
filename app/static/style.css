@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Rufina:wght@400;700&display=swap');
+
+body{
+    background-color: #EFEFEF;
+    margin: 0;
+    color: #034d6c;
+}
+
+a{
+    transition: color 0.3s ease;
+    font-family: 'Rubik', sans-serif;
+    color: #034d6c;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #f84f07;
+}
+
+html body header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    box-shadow: 3px 0 5px #AAA;
+    padding: 15px 30px;
+    position: relative;
+    z-index: 2;
+}
+
+header .logo{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+html body nav ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+html body nav ul li{
+    display: inline-block;
+}
+
+html body nav ul li a {
+    padding: 0 15px;
+}
+
+.hero{
+    position: relative;
+    background-color: #FFF;
+    display: flex;
+    padding: 20px 50px;
+    justify-content: center;
+    z-index: 1;
+}
+
+.hero h1{
+    font-family: 'Rufina', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.hero p{
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 50px;
+}
+
+.hero .hero__content{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero__content_left{
+    width: 600px;
+    align-self: center;
+}
+
+.hero__content_left_btn{
+    background-color: #f84f07;
+    color: #FFF;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.hero__content_left_btn:hover{
+    color: #FFF;
+    background-color: #ff8c00;
+    transition: background-color 0.5s ease;
+}
+
+.hero__content_right img{
+    width: 600px;
+}
