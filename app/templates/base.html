@@ -13,5 +13,29 @@
         </nav>
     </header>
     <section>{% block content %}{% endblock %}</section>
+    <div class="footer">
+        <div class="center full-width">
+            <div class="center__content_row">
+                <h3>Contact me</h3>
+            </div>
+        </div>
+        <div class="center full-width">
+            <div class="center__content_row">
+                <p>Or you can follow me in Social Networks.</p>
+            </div>
+        </div>
+        <div class="center full-width social-links">
+            <div class="center__content_row">
+                <a href="#"><img class="social" width="30" src="{{ url_for('static', filename='twitter.png') }}" alt=""></a>
+                <a href="#"><img class="social" width="30" src="{{ url_for('static', filename='facebook.png') }}" alt=""></a>
+                <a href="#"><img class="social" width="30" src="{{ url_for('static', filename='linkedin.png') }}" alt=""></a>
+            </div>
+        </div>
+        <div class="made-with">
+            <div class="center__content_row">
+                <p>Made with 💖 by group #6</p>
+            </div>
+        </div>
+    </div>
 </body>
 

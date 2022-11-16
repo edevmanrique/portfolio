@@ -11,11 +11,14 @@ Welcome
                 <h1>I'm a developer</h1>
                 <h1>Anthony Stark</h1>
                 <p>I build dynamic Python apps using relational databases.</p>
-                <a href="#contact" class="hero__content_left_btn">Contact me</a>
+                <a href="#contact" class="btn">Contact me</a>
             </div>
             <div class="hero__content_right">
                 <img src="{{ url_for('static', filename='big-data.png') }}"/>
             </div>
         </div>
     </div>
+{% include 'portfolio/section-first.html' %}
+{% include 'portfolio/section-second.html' %}
+{% include 'portfolio/section-third.html' %}
 {% endblock %}

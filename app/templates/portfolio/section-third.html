@@ -1,0 +1,18 @@
+<div class="center padded">
+    <div class="center__content">
+        <div class="center__content_row vert-pad">
+            <div class="center__content_row_left padded">
+                <h1>Now or never. Let's work together</h1>
+                <p>We can change the world. Contact me and find out why I am the best option you have.</p>
+            </div>
+            <div id="contact" class="center__content_row_right padded">
+                <form class="contact_form" method="post" action='{{ url_for("portfolio.mail") }}'>
+                    <input type="text" placeholder="Name..." name="name" required>
+                    <input type="email" placeholder="Email..." name="email" required>
+                    <textarea placeholder="Type your message..." name="message" minlength="10" required></textarea>
+                    <button class="btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
